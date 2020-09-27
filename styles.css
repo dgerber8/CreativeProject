@@ -1,0 +1,144 @@
+h1 {
+  text-align: center;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: white;
+  padding: 50px;
+}
+
+body {
+  background-color: black;
+
+}
+
+.repolink {
+  float: center;
+  font-size: 10pt;
+  text-align: center;
+}
+
+.newbody {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-grid {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.photo-grid-item {
+  width: 300px;
+  height: 300px;
+}
+
+.photo-grid-item-clock {
+  width: 220px;
+  height: 220px;
+}
+
+.links-container {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: black;
+
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  width: 700px;
+  font-weight: bold;
+  font-style: italic;
+  display: flex;
+  justify-content: left;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.links a:link {
+  color: white;
+}
+
+/* visited link */
+.links a:visited {
+  color: white;
+}
+
+@media only screen and (max-width: 400px) {
+  #logo {
+    width: 6%;
+    float: left;
+    margin-top: 1px;
+  }
+}
+
+#logo {
+  width: 4.5%;
+  float: left;
+  margin-top: 1px;
+}
+
+.events {
+  display: flex;
+  justify-content: flex-start;
+  height: 70%;
+}
+
+#timeline {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 82%;
+}
+
+.textbox {
+  padding: 1%;
+  width: 20%;
+  border: 1px solid black;
+  height: 100%;
+}
+
+.eventText {
+  text-align: left;
+}
+
+#them {
+  width: 20%;
+}
+
+#mebox {
+  width: 50%
+}
+
+.reviewbox {
+  margin: auto;
+  display: flex;
+  width: 90%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#description {
+  width: 75%;
+  margin: 0px auto;
+}
