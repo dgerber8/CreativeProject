@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="../styles.css" />
+  <title>Advice</title>
+  <style>
+    body {
+      background-color: #cc2b4b;
+    }
+    h1 {
+      color: black;
+      font-weight: bold;
+    }
+    h2, p {
+      margin-top: 2%;
+      margin-bottom: 2%;
+      text-align: center;
+    }
+    .buttonHolder{
+      margin-top: -1%;
+      margin-bottom: 2%;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav id='mybar' class="navbar-light">
+    <a href="../index.html"><img id="logo" src="../images/logo.png"></a>
+    <button id='navvy' class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="../index.html">Home</a>
+        <a class="nav-item nav-link" href="characters.html">The Toa</a>
+        <a class="nav-item nav-link" href="timeline.html">Timeline</a>
+        <a class="nav-item nav-link" href="reviews.html">Reviews</a>
+        <a class="nav-item nav-link" href="advice.html">Advice</a>
+      </div>
+    </div>
+  </nav>
+
+  <h1>VAKAMA'S<br>ADVICE CORNER</h1>
+
+  <div class='photo-grid-container'>
+    <div class='photo-grid'>
+      <img class='photo-grid-item' src='../images/vakama1.jpg'/>
+      <img class='photo-grid-item-clock' src='../images/vakama2.jpg'/>
+      <img class='photo-grid-item' src='../images/vakama3.png'/>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
+      integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+  <script text="type/javascript" src="../script.js">
+  </script>
+
+  <form>
+    <h2>Please hit SUBMIT for a new piece of advice generated from an API!</h2><br>
+    <div class="buttonHolder">
+      <input id="adviceSubmit" type="submit" value="SUBMIT"></input>
+    </div>
+  </form>
+
+  <div id="adviceResults"></div>
+  <div style="height: 200px;"></div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<footer>
+  <a class="repolink" href="https://github.com/dgerber8/CreativeProject1">
+    <p>Dalan Gerber and Will Hainsworth Github Repo</p>
+</footer>
+
+</html>
